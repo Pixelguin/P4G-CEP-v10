@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Better Fishing</name>
+  <id>animatedswine37.betterfishing</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/305697</link>
+  <description>Makes most fishing bait only catch one type of fish instead of having a random chance between two types.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

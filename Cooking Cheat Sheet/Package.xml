@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Cooking Cheat Sheet</name>
+  <id>gellyfish.cookingcheatsheet</id>
+  <author>Gellyfish</author>
+  <version>1.1</version>
+  <link>https://gamebanana.com/mods/33983</link>
+  <description>Adds an asterisk (*) next to the correct choices when cooking.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Useful Calendar - No Spoilers</name>
+  <id>usefulcalendar(spoilerfreever)</id>
+  <author>rudiger__gb</author>
+  <version>1.6.1</version>
+  <link>https://gamebanana.com/mods/50908</link>
+  <description>===Enable only ONE Useful Calendar package!===
+
+Adds additional in-game event dates to the calendar:
+
+-Bookstore restocked
+-Croco Fur restocked
+-Bulletin Board updated
+-Crane Game restocked
+-New S. Link available
+
+This version does not contain any story spoilers and is recommended for first-time players.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

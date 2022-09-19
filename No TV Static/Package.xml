@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>No TV Static</name>
+  <id>notvstatic</id>
+  <author>ShrineFox, rudiger__gb</author>
+  <version>1.0.2</version>
+  <link>https://gamebanana.com/mods/50899</link>
+  <description>Removes the TV noise and scanline overlays that display in TV World dungeons.
+
+Highly recommended for:
+-Streamers, to reduce compression artifacts and bandwidth
+-Anyone experiencing eye strain in TV World dungeons</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

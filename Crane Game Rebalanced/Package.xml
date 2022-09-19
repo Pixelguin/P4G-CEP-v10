@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Crane Game Rebalanced</name>
+  <id>animatedswine37.cranegamerebalanced</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0.1</version>
+  <link>https://gamebanana.com/mods/290821</link>
+  <description>Rebalances the crane game in Okina City to reduce grind:
+  
+  - Increased chance of winning a prize
+  - Always get two tries per attempt
+  - Cost increased from ¥100 to ¥500</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

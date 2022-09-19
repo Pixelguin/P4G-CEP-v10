@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Always Great Shrine Blessing</name>
+  <id>alwaysgreatshrineblessing</id>
+  <author>rudiger__gb</author>
+  <version>1.1.1</version>
+  <link>https://gamebanana.com/mods/50886</link>
+  <description>Removes the random element of taking a shrine fortune, so you'll always get a "Great Blessing."</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

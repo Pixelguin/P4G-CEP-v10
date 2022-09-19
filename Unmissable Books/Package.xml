@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Unmissable Books</name>
+  <id>animatedswine37.unmissablebooks</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0.2</version>
+  <link>https://gamebanana.com/mods/293809</link>
+  <description>Adds functionality to the Okina Station Bookstore, letting you purchase four books that are normally only obtainable through optional event scenes.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

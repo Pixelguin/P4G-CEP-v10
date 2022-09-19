@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Polished Personamation</name>
+  <id>pixelguin.personamationplus</id>
+  <author>Pixelguin</author>
+  <version>2.0</version>
+  <link>https://gamebanana.com/mods/34009</link>
+  <description>Fixes and improves the titles and descriptions in the Personamation cutscene viewer.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

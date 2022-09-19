@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Colorful Skills+</name>
+  <id>pixelguin.colorfulskillsplus_p4g</id>
+  <author>Pixelguin, rudiger__gb</author>
+  <version>2.1</version>
+  <link>https://gamebanana.com/mods/55650</link>
+  <description>Colors the icons for Persona Skills and inventory items.
+
+Due to an issue with texture translucency that can't be fixed, the colors are unchanged in the Persona menu and look a bit funky in the Skill menu outside of battle.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

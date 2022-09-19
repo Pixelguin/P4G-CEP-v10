@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<Packages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <packages>
+    <Package>
+      <name>P4G Community Enhancement Pack</name>
+      <path>..P4G Community Enhancement Pack</path>
+      <enabled>false</enabled>
+      <id>p4gcep.p4gcep</id>
+      <hidden>false</hidden>
+      <link>https://github.com/Pixelguin/P4G-CEP-v10</link>
+    </Package>
+    <Package>
+      <name>Crash Warning</name>
+      <path>Crash Warning</path>
+      <enabled>true</enabled>
+      <id>tekka.crashwarning</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>[   FIXES   ]</name>
+      <path>.FIXES</path>
+      <enabled>false</enabled>
+      <id>p4gcep.fixes</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Framerate unLimiter</name>
+      <path>Framerate unLimiter</path>
+      <enabled>true</enabled>
+      <id>sewer56.framerateunlimiter</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/398825</link>
+    </Package>
+    <Package>
+      <name>Title Screen Fix+</name>
+      <path>Title Screen Fix+</path>
+      <enabled>true</enabled>
+      <id>lipsum.titlescreenfix_modloaderenabled</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/33990</link>
+    </Package>
+    <Package>
+      <name>Culprit Boss AI Fix</name>
+      <path>Culprit Boss AI Fix</path>
+      <enabled>true</enabled>
+      <id>sierrai17.culpritbossaifix</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50898</link>
+    </Package>
+    <Package>
+      <name>Arcana Localization Fix</name>
+      <path>Arcana Localization Fix</path>
+      <enabled>true</enabled>
+      <id>pixelguin.arcanalocalizationfix</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/359129</link>
+    </Package>
+    <Package>
+      <name>Igor Blinks</name>
+      <path>Igor Blinks</path>
+      <enabled>true</enabled>
+      <id>pioziomgames.igorblinks</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/250286</link>
+    </Package>
+    <Package>
+      <name>Clean Title Bar - Persona 4 Golden</name>
+      <path>Clean Title Bar - Persona 4 Golden</path>
+      <enabled>true</enabled>
+      <id>pixelguin.cleantitlebar_golden</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50905</link>
+    </Package>
+    <Package>
+      <name>[   OVERHAULS   ]</name>
+      <path>.OVERHAULS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.overhauls</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Texture Fixes Pack+</name>
+      <path>Texture Fixes Pack+</path>
+      <enabled>true</enabled>
+      <id>texturefixespack</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/9659</link>
+    </Package>
+    <Package>
+      <name>Custom Sub Menu - JP Audio Compatibility Patch</name>
+      <path>Custom Sub Menu - JP Audio Compatibility Patch</path>
+      <enabled>false</enabled>
+      <id>rudiger__gb.customsubmenu-jpaudiocompatibilitypatch</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50963</link>
+    </Package>
+    <Package>
+      <name>Custom Sub Menu (P4G CEP ver.)</name>
+      <path>Custom Sub Menu (P4G CEP ver.)</path>
+      <enabled>true</enabled>
+      <id>tekka.customsubmenu</id>
+      <hidden>false</hidden>
+      <link>https://github.com/AnimatedSwine37/Persona-4-Golden-Mod-Menu/tree/CEP</link>
+    </Package>
+    <Package>
+      <name>Detailed Descriptions</name>
+      <path>Detailed Descriptions</path>
+      <enabled>true</enabled>
+      <id>detaileddescriptions</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50874</link>
+    </Package>
+    <Package>
+      <name>[   EXPANSIONS   ]</name>
+      <path>.EXPANSIONS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.expansions</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Fortune Teller</name>
+      <path>Fortune Teller</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.fortuneteller</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/325510</link>
+    </Package>
+    <Package>
+      <name>Dojima's Coffee</name>
+      <path>Dojima's Coffee</path>
+      <enabled>true</enabled>
+      <id>tekka.dojimascoffee</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50921</link>
+    </Package>
+    <Package>
+      <name>Produce Store</name>
+      <path>Produce Store</path>
+      <enabled>true</enabled>
+      <id>tekka.producestore</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50931</link>
+    </Package>
+    <Package>
+      <name>Unmissable Books</name>
+      <path>Unmissable Books</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.unmissablebooks</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/293809</link>
+    </Package>
+    <Package>
+      <name>Dungeon Save Points</name>
+      <path>Dungeon Save Points</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.dungeonsavepoints</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/356715</link>
+    </Package>
+    <Package>
+      <name>[   BALANCE   ]</name>
+      <path>.BALANCE</path>
+      <enabled>false</enabled>
+      <id>p4gcep.balance</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Hyperspeed Reading+</name>
+      <path>Hyperspeed Reading+</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.hyperspeedreading+</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50919</link>
+    </Package>
+    <Package>
+      <name>Better Fishing</name>
+      <path>Better Fishing</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.betterfishing</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/305697</link>
+    </Package>
+    <Package>
+      <name>Crane Game Rebalanced</name>
+      <path>Crane Game Rebalanced</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.cranegamerebalanced</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/290821</link>
+    </Package>
+    <Package>
+      <name>[   TWEAKS   ]</name>
+      <path>.TWEAKS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.tweaks</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Useful Calendar - No Spoilers</name>
+      <path>Useful Calendar - No Spoilers</path>
+      <enabled>true</enabled>
+      <id>usefulcalendar(spoilerfreever)</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50908</link>
+    </Package>
+    <Package>
+      <name>Useful Calendar - With Spoilers</name>
+      <path>Useful Calendar - With Spoilers</path>
+      <enabled>false</enabled>
+      <id>usefulcalendar(completever)</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50908</link>
+    </Package>
+    <Package>
+      <name>Evening Hangout Improvements</name>
+      <path>Evening Hangout Improvements</path>
+      <enabled>true</enabled>
+      <id>animatedswine37eveninghangoutimprovements</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/400943</link>
+    </Package>
+    <Package>
+      <name>Better Quizzes</name>
+      <path>Better Quizzes</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.betterquizzes</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/298377</link>
+    </Package>
+    <Package>
+      <name>5th Dungeon Key Prompt</name>
+      <path>5th Dungeon Key Prompt</path>
+      <enabled>true</enabled>
+      <id>rudiger__gb.5thdungeon-keyprompt</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50922</link>
+    </Package>
+    <Package>
+      <name>[   AUDIO   ]</name>
+      <path>.AUDIO</path>
+      <enabled>false</enabled>
+      <id>p4gcep.audio</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Delicate Music Tweaks</name>
+      <path>Delicate Music Tweaks</path>
+      <enabled>true</enabled>
+      <id>pixelguin.delicatemusictweaks</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/sounds/49693</link>
+    </Package>
+    <Package>
+      <name>[   PORTRAITS   ]</name>
+      <path>.PORTRAITS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.portraits</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Corrected Battle Portraits</name>
+      <path>Corrected Battle Portraits</path>
+      <enabled>true</enabled>
+      <id>correctedbattleportraits</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/33999</link>
+    </Package>
+    <Package>
+      <name>P4 Arena Ultimax Battle Portraits</name>
+      <path>P4 Arena Ultimax Battle Portraits</path>
+      <enabled>false</enabled>
+      <id>p4aubattleportraits</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34012</link>
+    </Package>
+    <Package>
+      <name>P4 Arena Ultimax Follow-Up Portraits</name>
+      <path>P4 Arena Ultimax Follow-Up Portraits</path>
+      <enabled>true</enabled>
+      <id>wxnder,rudiger_gb.p4aufollow-upportraits(glassesver)</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34005</link>
+    </Package>
+    <Package>
+      <name>[   CONTROLLER   ]</name>
+      <path>.CONTROLLER</path>
+      <enabled>false</enabled>
+      <id>p4gcep.controller</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Controller UI Overhaul - Xbox</name>
+      <path>Controller UI Overhaul - Xbox</path>
+      <enabled>true</enabled>
+      <id>pixelguin.controlleruioverhaul-xsx</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34011</link>
+    </Package>
+    <Package>
+      <name>Controller UI Overhaul - PS5</name>
+      <path>Controller UI Overhaul - PS5</path>
+      <enabled>false</enabled>
+      <id>pixelguin.controlleruioverhaul-ps5</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34011</link>
+    </Package>
+    <Package>
+      <name>Controller UI Overhaul - PS4</name>
+      <path>Controller UI Overhaul - PS4</path>
+      <enabled>false</enabled>
+      <id>pixelguin.controlleruioverhaul-ps4</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34011</link>
+    </Package>
+    <Package>
+      <name>Controller UI Overhaul - Nintendo Switch</name>
+      <path>Controller UI Overhaul - Nintendo Switch</path>
+      <enabled>false</enabled>
+      <id>pixelguin.controlleruioverhaul-nsw</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34011</link>
+    </Package>
+    <Package>
+      <name>[   INTERFACE   ]</name>
+      <path>.INTERFACE</path>
+      <enabled>false</enabled>
+      <id>p4gcep.interface</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Slim Font</name>
+      <path>Slim Font</path>
+      <enabled>true</enabled>
+      <id>tekka.slimfont</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50903</link>
+    </Package>
+    <Package>
+      <name>Colorful Skills+</name>
+      <path>Colorful Skills+</path>
+      <enabled>true</enabled>
+      <id>pixelguin.colorfulskillsplus_p4g</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/55650</link>
+    </Package>
+    <Package>
+      <name>Blue Aeon Arcana</name>
+      <path>Blue Aeon Arcana</path>
+      <enabled>true</enabled>
+      <id>pixelguin.blueaeonarcana</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34014</link>
+    </Package>
+    <Package>
+      <name>[   MENUS   ]</name>
+      <path>.MENUS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.menus</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Config Clarity+</name>
+      <path>Config Clarity+</path>
+      <enabled>true</enabled>
+      <id>pixelguin.configclarity</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34007</link>
+    </Package>
+    <Package>
+      <name>Polished Personamation</name>
+      <path>Polished Personamation</path>
+      <enabled>true</enabled>
+      <id>pixelguin.personamationplus</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/34009</link>
+    </Package>
+    <Package>
+      <name>[   MISCELLANEOUS   ]</name>
+      <path>.MISCELLANEOUS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.miscellaneous</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>No TV Static</name>
+      <path>No TV Static</path>
+      <enabled>true</enabled>
+      <id>notvstatic</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50899</link>
+    </Package>
+    <Package>
+      <name>Gentle Fast Forward - Brown Noise</name>
+      <path>Gentle Fast Forward - Brown Noise</path>
+      <enabled>true</enabled>
+      <id>pixelguin.gentlefastforward_brownnoise</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/369214</link>
+    </Package>
+    <Package>
+      <name>Accurate Summoning Cards</name>
+      <path>Accurate Summoning Cards</path>
+      <enabled>true</enabled>
+      <id>accuratesummoningcards</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/322914</link>
+    </Package>
+    <Package>
+      <name>Hidden Field Names</name>
+      <path>Hidden Field Names</path>
+      <enabled>true</enabled>
+      <id>animatedswine37.hidefieldname</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/389830</link>
+    </Package>
+    <Package>
+      <name>Ultimate Persona Compendium Registration</name>
+      <path>Ultimate Persona Compendium Registration</path>
+      <enabled>true</enabled>
+      <id>ultimatepersonacompendiumregistration</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50901</link>
+    </Package>
+    <Package>
+      <name>P5R Calendar</name>
+      <path>Custom Calendar</path>
+      <enabled>true</enabled>
+      <id>p4gcep.customcalendar</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/9655</link>
+    </Package>
+    <Package>
+      <name>[   CHEATS   ]</name>
+      <path>.CHEATS</path>
+      <enabled>false</enabled>
+      <id>p4gcep.cheats</id>
+      <hidden>false</hidden>
+      <link />
+    </Package>
+    <Package>
+      <name>Always Great Shrine Blessing</name>
+      <path>Always Great Shrine Blessing</path>
+      <enabled>false</enabled>
+      <id>alwaysgreatshrineblessing</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50886</link>
+    </Package>
+    <Package>
+      <name>Always Study Bonus</name>
+      <path>Always Study Bonus</path>
+      <enabled>false</enabled>
+      <id>fixedknowledgebonus(studying)</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50888</link>
+    </Package>
+    <Package>
+      <name>Easy Fishing</name>
+      <path>Easy Fishing</path>
+      <enabled>false</enabled>
+      <id>tekka.easyfishing</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50932</link>
+    </Package>
+    <Package>
+      <name>Social Link Cheat Sheet</name>
+      <path>Social Link Cheat Sheet</path>
+      <enabled>false</enabled>
+      <id>tekka.sociallinkcheatsheet</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50885</link>
+    </Package>
+    <Package>
+      <name>Classroom Cheat Sheet</name>
+      <path>Classroom Cheat Sheet</path>
+      <enabled>false</enabled>
+      <id>tekka.classroomanswers</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/50891</link>
+    </Package>
+    <Package>
+      <name>Cooking Cheat Sheet</name>
+      <path>Cooking Cheat Sheet</path>
+      <enabled>false</enabled>
+      <id>gellyfish.cookingcheatsheet</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/33983</link>
+    </Package>
+  </packages>
+  <showHiddenPackages>true</showHiddenPackages>
+</Packages>

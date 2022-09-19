@@ -1,0 +1,4 @@
+[replacement Framerate unLimiter]
+pattern = F3 0F 5F C1 F3 0F 11 05 ?? ?? ?? ??
+replacement = 0x7DE9
+offset = 12

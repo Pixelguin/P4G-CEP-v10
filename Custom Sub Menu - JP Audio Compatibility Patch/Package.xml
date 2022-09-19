@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Custom Sub Menu - JP Audio Compatibility Patch</name>
+  <id>rudiger__gb.customsubmenu-jpaudiocompatibilitypatch</id>
+  <author>rudiger__gb</author>
+  <version>1.26</version>
+  <link>https://gamebanana.com/mods/50963</link>
+  <description>===Enable this ONLY if you are playing the game with Japanese voices!===
+
+This patch for Custom Sub Menu prevents the Japanese dialogue from being muted when opening doors in dungeons.
+
+These voice lines were never recorded in English, so this package should only be enabled if you are playing with Japanese voices.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

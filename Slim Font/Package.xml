@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Slim Font</name>
+  <id>tekka.slimfont</id>
+  <author>Tekka, Pixelguin</author>
+  <version>1.7</version>
+  <link>https://gamebanana.com/mods/50903</link>
+  <description>Replaces P4G's font with the slimmer Skip Std-B and fixes some overlapping glyph issues.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

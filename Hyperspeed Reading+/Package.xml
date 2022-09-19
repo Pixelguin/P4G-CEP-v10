@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Hyperspeed Reading+</name>
+  <id>animatedswine37.hyperspeedreading+</id>
+  <author>AnimatedSwine37</author>
+  <version>1.1.1</version>
+  <link>https://gamebanana.com/mods/50919</link>
+  <description>If you read a book and have previously finished "Hyperspeed Reading," this mod allows you to read one chapter of a second book if the book you were reading only had one chapter remaining.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

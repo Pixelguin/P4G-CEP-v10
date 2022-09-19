@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Framerate unLimiter</name>
+  <id>sewer56.framerateunlimiter</id>
+  <author>Sewer56, AnimatedSwine37, Pixelguin</author>
+  <version>1.0.2</version>
+  <link>https://gamebanana.com/mods/398825</link>
+  <description>Disables the built-in framelimiter, uncapping the framerate in Fullscreen and Borderless mode.
+
+For best results with Nvidia GPUs, set "Preferred refresh rate" to "Highest available" for P4G.exe in Nvidia Control Panel.
+
+Open the GameBanana link for more troubleshooting solutions.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

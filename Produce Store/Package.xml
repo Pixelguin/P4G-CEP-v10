@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Produce Store</name>
+  <id>tekka.producestore</id>
+  <author>Tekka</author>
+  <version>1.3</version>
+  <link>https://gamebanana.com/mods/50931</link>
+  <description>Restores the cut Produce Store to the game, allowing you to buy as many vegetable seedlings as you like from the produce vendor.
+
+The store is first available on 5/22, and seedlings come into stock the same date they are first available in the unmodded game.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Better Quizzes</name>
+  <id>animatedswine37.betterquizzes</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0.1</version>
+  <link>https://gamebanana.com/mods/298377</link>
+  <description>Adds an option to have quiz questions repeated before answering.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>[   FIXES   ]</name>
+  <id>p4gcep.fixes</id>
+  <author />
+  <version />
+  <link />
+  <description>Fixes for the visual and technical shortcomings of vanilla P4G.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

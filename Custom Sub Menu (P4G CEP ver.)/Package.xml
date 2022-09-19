@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Custom Sub Menu (P4G CEP ver.)</name>
+  <id>tekka.customsubmenu</id>
+  <author>AnimatedSwine37, ShrineFox, Sierrai17, rudiger__gb, Tekka, Tupelov</author>
+  <version>1.26</version>
+  <link>https://github.com/AnimatedSwine37/Persona-4-Golden-Mod-Menu/tree/CEP</link>
+  <description>A large collection of quality-of-life mods which can be customized from the sub menu.
+
+Quick Travel Plus
+Mobile Calendar
+Dungeon Options
+Find a Friend
+Remove Lunchtime Invitations
+Reap-Balanced Encounters
+Default Direct Commands
+Dungeon Text Fixes
+Scooter Ride Count
+No More Dimmed Dungeon Music
+Game Over Skip (disabled by default)
+Remove Events (disabled by default)
+
+To configure the mod, open the sub menu (X / Square) and press the command menu button (Y / Triangle).
+
+Some mods have been removed from this version of Custom Sub Menu to improve cross-compatibility and reduce the risk of softlocks. Download the full version of the mod from the GitHub link if you would like to use these features.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

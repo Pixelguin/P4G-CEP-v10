@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Dungeon Save Points</name>
+  <id>animatedswine37.dungeonsavepoints</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/356715</link>
+  <description>Restores the save points on the final floor of dungeons that were present in Persona 4 on PS2.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

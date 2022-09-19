@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Social Link Cheat Sheet</name>
+  <id>tekka.sociallinkcheatsheet</id>
+  <author>Tekka</author>
+  <version>1.1.1</version>
+  <link>https://gamebanana.com/mods/50885</link>
+  <description>Shows all the effects of your Social Link choices:
+
+-Affinity boosts (without/with a matching Persona)
+-Relationship flags (Love / Broken / Reverse)</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

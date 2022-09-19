@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>[   BALANCE   ]</name>
+  <id>p4gcep.balance</id>
+  <author />
+  <version />
+  <link />
+  <description>Changes to game balance that remove elements of random chance or give the player more free time.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

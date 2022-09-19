@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Culprit Boss AI Fix</name>
+  <id>sierrai17.culpritbossaifix</id>
+  <author>Sierrai17</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/50898</link>
+  <description>The culprit boss fight in the PC port of P4G is missing several attacks. This mod adds them back.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

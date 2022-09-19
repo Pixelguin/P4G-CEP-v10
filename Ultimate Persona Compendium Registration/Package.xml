@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Ultimate Persona Compendium Registration</name>
+  <id>ultimatepersonacompendiumregistration</id>
+  <author>rudiger__gb</author>
+  <version>1.0.2</version>
+  <link>https://gamebanana.com/mods/50901</link>
+  <description>Allows the protagonist's Ultimate Persona to be registered in and summoned from the Compendium.
+
+Note that you can only do this in New Game+ once you have fulfilled certain requirements. If you have already fused this Persona in your save file, you will need to remove it from your party and fuse it again to register it.
+
+This Persona will count towards 100% completion of the Persona Compendium and the Thorough Bookkeeper achievement. If you want to earn Thorough Bookkeeper without starting a New Game+ run, do not use this mod until after you have unlocked the achievement.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

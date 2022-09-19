@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Corrected Battle Portraits</name>
+  <id>correctedbattleportraits</id>
+  <author>rudiger__gb</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/33999</link>
+  <description>===Enable only ONE battle portrait package!===
+
+Improves the details and coloration of the character portraits in dungeons.
+
+Hair colors are now more accurate (no more grandpa Kanji), mistakes such as Chie's missing sleeve stripe have been fixed, and the vibrancy is no longer washed-out.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

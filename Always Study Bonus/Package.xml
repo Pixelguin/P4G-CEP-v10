@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Always Study Bonus</name>
+  <id>fixedknowledgebonus(studying)</id>
+  <author>rudiger__gb</author>
+  <version>1.0.1</version>
+  <link>https://gamebanana.com/mods/50888</link>
+  <description>When studying in your room, there is a random chance that you will get an additional Knowledge point.
+
+This mod removes the random element, so studying always gives the extra point.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

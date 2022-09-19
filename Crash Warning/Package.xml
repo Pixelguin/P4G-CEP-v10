@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Crash Warning</name>
+  <id>tekka.crashwarning</id>
+  <author>Tekka, Pixelguin, rudiger__gb</author>
+  <version>1.0</version>
+  <link />
+  <description>Displays a warning and a workaround for a crash that can happen on 4/15.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

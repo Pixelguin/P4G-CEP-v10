@@ -1,0 +1,129 @@
+// 
+// Imports
+// 
+
+import( "f007.bf" );
+
+void check_sofa_p4p_hook()
+{
+    int localVariable79 = 0;
+    
+    if ( GET_MONTH() == 4 && GET_DAY_OF_MONTH() == 11 )
+    {
+        OPEN_MSG_WIN();
+        MSG( HEYA_NERUIGAIDAME_0411 );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( DATE_CHK( 4, 14 ) == 1 )
+    {
+        OPEN_MSG_WIN();
+        MSG( SUGUNERU_SOFA );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( BIT_CHK( 0 + 0x0400 + 514 ) == 1 || BIT_CHK( 0 + 0x0400 + 527 ) == 1 )
+    {
+        OPEN_MSG_WIN();
+        MSG( SOFA_NONE );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( EVT_FUNCTION_002F( 0, 2, 0 ) == 0 )
+    {
+        OPEN_MSG_WIN();
+        MSG( CHECK_SOFA );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( BIT_CHK( 0 + 0x0400 + 0x0800 + 2 ) == 1 )
+    {
+        OPEN_MSG_WIN();
+        MSG( DUNGEON_SOFA );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( EVT_FUNCTION_002F( 0, 3, 0 ) == 0 && EVT_FUNCTION_002F( 0, 1, 0 ) == 0 )
+    {
+        OPEN_MSG_WIN();
+        MSG( CHECK_SOFA_ALLREAD_BOOK );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else if ( EVT_FUNCTION_002F( 0, 1, 0 ) == 0 )
+    {
+        OPEN_MSG_WIN();
+        MSG( CHECK_SOFA_NOREAD_BOOK );
+        CLOSE_MSG_WIN();
+        return;
+    }
+    else 
+    {
+		// Only ask if they want to read a book if this isn't the second one
+		if ( BIT_CHK( 123456789 ) == 0) {
+			OPEN_MSG_WIN();
+			MSG( CHECK_SOFA_READ );
+            SEL_CHK_PAD(14, 1);
+            localVariable79 = SEL( SEL_READ_SEL );
+			CLOSE_MSG_WIN();
+		} else {
+			localVariable79 = 0;
+		}
+        
+        if ( localVariable79 == 0 )
+        {
+            BOOK_READ();
+
+            if (GET_CNT(88) != 0)
+            {
+                FADE( 1, 10 );
+                FADE_SYNC();
+                CALL_EVENT( 860, 34, 0 );
+                
+                if ( GET_TIME_OF_DAY() != 5 )
+                {
+                    BIT_ON( 0 + 0x0400 + 0x0800 + 931 );
+                }
+                else 
+                {
+                    BIT_ON( 0 + 0x0400 + 0x0800 + 990 );
+                }
+
+                
+                if ( BIT_CHK( 0 + 0x0400 + 0x0800 + 332 ) == 1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( CHECK_SOFA_READBOOK_DEBU );
+                    CLOSE_MSG_WIN();
+                    CALL_FIELD( 7, 3, 0, 0 );
+                    return;
+                }
+                else if ( GET_TIME_OF_DAY() == 5 )
+                {
+					// If there is another book to read go back inside and open the bookshelf
+					if( BIT_CHK(123456789) == 1 ) {
+						check_sofa_p4p();
+					} else {
+						commu_yoru();
+                    }
+					return;
+                }
+                else 
+                {
+					// If there is another book to read go back inside and open the bookshelf
+					if( BIT_CHK(123456789) == 1 ) { 
+						check_sofa_p4p();
+					} else {
+						BIT_ON( 0 + 0x0400 + 1761 );
+						TV_STUDIO();					
+					}
+                    return;
+                }
+			// If another book must be read when the user tries to close the bookshelf just open it again
+            } else if ( BIT_CHK( 123456789 ) == 1) {
+				check_sofa_p4p();
+			}
+        } 
+    }
+
+}

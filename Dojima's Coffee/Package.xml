@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Dojima's Coffee</name>
+  <id>tekka.dojimascoffee</id>
+  <author>Tekka</author>
+  <version>1.3</version>
+  <link>https://gamebanana.com/mods/50921</link>
+  <description>This feature is unlocked after obtaining the Coffee Mug key item after reaching S. Link Rank 10 (Max) with Dojima.
+
+Interact with the kitchen after returning from the TV World to drink some of Dojima's coffee and do an activity at night. 
+
+You won't be able to drink coffee on nights with event scenes.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

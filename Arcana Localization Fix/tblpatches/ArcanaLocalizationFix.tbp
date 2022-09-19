@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Patches": [
+    {
+      "comment": "Segment: Arcana Names, Index: 26",
+      "tbl": "MSG",
+      "section": 0,
+      "offset": 546,
+      "data": "4C 75 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    }
+  ]
+}

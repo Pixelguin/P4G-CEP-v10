@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Classroom Cheat Sheet</name>
+  <id>tekka.classroomanswers</id>
+  <author>Tekka</author>
+  <version>1.0.3</version>
+  <link>https://gamebanana.com/mods/50891</link>
+  <description>Adds an asterisk (*) next to the correct answers to classroom questions and exams.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

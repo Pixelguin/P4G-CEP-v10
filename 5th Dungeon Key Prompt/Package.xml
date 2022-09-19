@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>5th Dungeon Key Prompt</name>
+  <id>rudiger__gb.5thdungeon-keyprompt</id>
+  <author>rudiger__gb</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/50922</link>
+  <description>Adds a few lines to the navigator dialogue in the fifth dungeon to make sure you don't miss the mandatory miniboss on one of the floors.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

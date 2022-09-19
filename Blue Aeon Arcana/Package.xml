@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Blue Aeon Arcana</name>
+  <id>pixelguin.blueaeonarcana</id>
+  <author>Pixelguin</author>
+  <version>1.2.1</version>
+  <link>https://gamebanana.com/mods/34014</link>
+  <description>Replaces the gold Aeon arcana card seen in Marie's Social Link and Shuffle Time with a plain blue one.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

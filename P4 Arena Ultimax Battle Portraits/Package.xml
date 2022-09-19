@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>P4 Arena Ultimax Battle Portraits</name>
+  <id>p4aubattleportraits</id>
+  <author>rudiger__gb, FluffnFlight</author>
+  <version>2.1.1</version>
+  <link>https://gamebanana.com/mods/34012</link>
+  <description>===Enable only ONE battle portrait package!===
+
+Replaces the character portraits in dungeons with artwork from Persona 4 Arena Ultimax.
+
+The sprites have been heavily tweaked to better fit P4G and even feature hand-drawn glasses.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

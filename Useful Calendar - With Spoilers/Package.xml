@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Useful Calendar - With Spoilers</name>
+  <id>usefulcalendar(completever)</id>
+  <author>rudiger__gb</author>
+  <version>1.6.1</version>
+  <link>https://gamebanana.com/mods/50908</link>
+  <description>===Enable only ONE Useful Calendar package!===
+
+Adds additional in-game event dates to the calendar:
+
+-Bookstore restocked
+-Croco Fur restocked
+-Bulletin Board updated
+-Crane Game restocked
+-New S. Link available
+-New quest(s) available
+-Story deadlines
+-Characters' birthdays
+
+This version contains MAJOR STORY SPOILERS and is recommended for those who have played P4G before.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

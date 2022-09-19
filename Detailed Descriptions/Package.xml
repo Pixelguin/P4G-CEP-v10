@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Detailed Descriptions</name>
+  <id>detaileddescriptions</id>
+  <author>rudiger__gb</author>
+  <version>4.0</version>
+  <link>https://gamebanana.com/mods/50874</link>
+  <description>Fixes and improves many in-game descriptions:
+
+-S. Link locations and availability
+-S. Link social stat requirements
+
+-Key item descriptions
+-Seedling descriptions (time to harvest, item effect)
+
+-Skill damage
+-Skill effect/critical chance
+-Passive/support Skill descriptions
+-Auto-Skill effects
+-Auto-Skill duration
+-Skill Card descriptions (what the Skill actually does)
+
+-Quest drop information (enemy type, enemy location)
+-Quest deadlines
+-Quest requirements
+-Quest objectives
+
+-Jewel drop locations
+</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

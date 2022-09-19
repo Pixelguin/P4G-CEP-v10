@@ -1,0 +1,352 @@
+import("f007.bf");
+import("f007.msg");
+
+void check_myroom_tv_hook()
+{
+    int mask;
+    int maskMidnightChannel;
+    int maskShoppingProgram;
+    int selection;
+    mask = 0;
+    maskMidnightChannel = 0;
+    maskShoppingProgram = 0;
+
+    if ((GET_TIME_OF_DAY() != 5) || (BIT_CHK(5715) == 1))
+    {
+        maskMidnightChannel = (maskMidnightChannel + 1);
+    }
+
+    if ((((((EVT_FUNCTION_0026() == 1) || (CHECK_TIME_SPAN(11, 27, 11, 29) == 1)) || (CHECK_TIME_SPAN(12, 4, 12, 6) == 1)) || (CHECK_TIME_SPAN(12, 11, 12, 13) == 1)) || (CHECK_TIME_SPAN(12, 18, 12, 20) == 1)) || (CHECK_TIME_SPAN(2, 12, 2, 14) == 1))
+    {
+
+        if (BIT_CHK(1893) == 1)
+        {
+            maskShoppingProgram = (maskShoppingProgram + 8);
+        }
+        else if (BIT_CHK(3327) == 0)
+        {
+
+            if (GET_TIME_OF_DAY() == 5)
+            {
+
+                if (BIT_CHK(1892) == 1)
+                {
+                    maskShoppingProgram = (maskShoppingProgram + 8);
+                }
+            }
+            else if (BIT_CHK(2656) == 1)
+            {
+                maskShoppingProgram = (maskShoppingProgram + 8);
+            }
+        }
+    }
+    else
+    {
+        maskShoppingProgram = (maskShoppingProgram + 8);
+    }
+
+    mask = (maskMidnightChannel + maskShoppingProgram);
+
+    if (DATE_CHK(4, 11))
+    {
+        OPEN_MSG_WIN();
+        MSG(HEYA_NERUIGAIDAME_0411);
+        CLOSE_MSG_WIN();
+    }
+    else
+    {
+        OPEN_MSG_WIN();
+        MSG(TV_MIRU);
+        SET_MASK(mask);
+        SEL_CHK_PAD(14, 4);
+        selection = SEL(NEW_TV_SEL);
+        CLOSE_MSG_WIN();
+
+        if (selection == 0)
+        {
+            tv_watch_mayonakatv();
+        }
+        else if (selection == 1)
+        {
+            fortune_teller();
+        }
+        else if (selection == 2)
+        {
+            tv_watch_weather();
+        }
+        else if (selection == 3)
+        {
+            tv_watch_tuuhan();
+        }
+
+        return;
+    }
+}
+
+// The fortune teller show
+void fortune_teller()
+{
+    FLD_FUNCTION_0007(10243, 1);
+
+    // Change the TV image depending on the fortune "quality"
+    if (BIT_CHK(5900))
+        FLD_FUNCTION_0008(10243, 1, 1, 0, 1);
+    else
+        FLD_FUNCTION_0008(10243, 0, 1, 0, 1);
+
+    PLAY_SOUNDEFFECT(748);
+    WAIT(30);
+    CALL_BGM(20);
+
+    // Display help message the first time
+    if(!BIT_CHK(5901)) {
+        HELP_MSG(FORTUNE_TELLER_HELP);
+        BIT_ON(5901);
+    }
+
+    // Check if they want to see their fortune
+    OPEN_MSG_WIN();
+    bool done = false;
+    MSG(FORTUNE_QUESTION_1);
+    while (!done)
+    {
+        MSG(FORTUNE_QUESTION_2);
+        SEL_CHK_PAD(14, 1);
+        int selection = SEL(FORTUNE_SEL);
+        if (selection == 0)
+        {
+            // Display their fortune
+            for (int i = 0; i < 5; i++)
+            {
+                if (GET_SOCIAL_STAT_LEVEL(i) == 5)
+                {
+                    MSG(FORTUNE_MAX_COURAGE + i);
+                }
+                else
+                {
+                    SendStatMessage(i);
+                }
+            }
+
+            if (BIT_CHK(5900))
+                MSG(FORTUNE_END_SPECIFIC);
+            else
+                MSG(FORTUNE_END);
+
+            done = true;
+        }
+        else if (selection == 2)
+        {
+            // Turn the tv off
+            STOP_BGM(0);
+            FLD_FUNCTION_0032();
+            FLD_FUNCTION_0007(10243, 0);
+            PLAY_SOUNDEFFECT(748);
+            WAIT(40);
+            // Turn the TV back on
+            FLD_FUNCTION_0007(10243, 1);
+            PLAY_SOUNDEFFECT(748);
+            // Switch the image
+            if (BIT_CHK(5900))
+                FLD_FUNCTION_0008(10243, 0, 1, 0, 1);
+            else
+                FLD_FUNCTION_0008(10243, 1, 1, 0, 1);
+            WAIT(30);
+            CALL_BGM(20);
+
+            // Send message and flip the bit
+            if (BIT_CHK(5900))
+            {
+                MSG(ADJUST_FUZZY);
+                BIT_OFF(5900);
+            }
+            else
+            {
+                MSG(ADJUST_PRECISE);
+                BIT_ON(5900);
+            }
+        }
+        else
+        {
+            done = true;
+        }
+    }
+    CLOSE_MSG_WIN();
+    STOP_BGM(0);
+    FLD_FUNCTION_0032();
+    FLD_FUNCTION_0007(10243, 0);
+    PLAY_SOUNDEFFECT(748);
+}
+
+// Sends the message saying how close you are to levelling up
+void SendStatMessage(int socialStat)
+{
+    int points = ReadNumber(-1268 + socialStat * 2, 1);
+    int level = GET_SOCIAL_STAT_LEVEL(socialStat);
+    int required = 0;
+    // How close you are to leveling up in quarters (represented by 0 to 3) based on how many points total are required for each level
+    int progress = 0;
+    switch (socialStat)
+    {
+    case SocialStat.Courage:
+        if (level < 2)
+        {
+            required = 16 - points;
+            progress = 100 - 100 * required / (16 - 0);
+        }
+        else if (level < 3)
+        {
+            required = 40 - points;
+            progress = 100 - 100 * required / (40 - 16);
+        }
+        else if (level < 4)
+        {
+            required = 80 - points;
+            progress = 100 - 100 * required / (80 - 40);
+        }
+        else
+        {
+            required = 140 - points;
+            progress = 100 - 100 * required / (140 - 80);
+        }
+        break;
+
+    case SocialStat.Knowledge:
+        if (level < 2)
+        {
+            required = 30 - points;
+            progress = 100 - 100 * required / (30 - 0);
+        }
+        else if (level < 3)
+        {
+            required = 80 - points;
+            progress = 100 - 100 * required / (80 - 30);
+        }
+        else if (level < 4)
+        {
+            required = 150 - points;
+            progress = 100 - 100 * required / (150 - 80);
+        }
+        else
+        {
+            required = 240 - points;
+            progress = 100 - 100 * required / (240 - 150);
+        }
+        break;
+
+    case SocialStat.Diligence:
+        if (level < 2)
+        {
+            required = 16 - points;
+            progress = 100 - 100 * required / (16 - 0);
+        }
+        else if (level < 3)
+        {
+            required = 40 - points;
+            progress = 100 - 100 * required / (40 - 16);
+        }
+        else if (level < 4)
+        {
+            required = 80 - points;
+            progress = 100 - 100 * required / (80 - 40);
+        }
+        else
+        {
+            required = 130 - points;
+            progress = 100 - 100 * required / (130 - 80);
+        }
+        break;
+
+    case SocialStat.Understanding:
+        if (level < 2)
+        {
+            required = 16 - points;
+            progress = 100 - 100 * required / (16 - 0);
+        }
+        else if (level < 3)
+        {
+            required = 40 - points;
+            progress = 100 - 100 * required / (40 - 16);
+        }
+        else if (level < 4)
+        {
+            required = 80 - points;
+            progress = 100 - 100 * required / (80 - 40);
+        }
+        else
+        {
+            required = 140 - points;
+            progress = 100 - 100 * required / (140 - 80);
+        }
+        break;
+
+    case SocialStat.Expression:
+        if (level < 2)
+        {
+            required = 13 - points;
+            progress = 100 - 100 * required / (13 - 0);
+        }
+        else if (level < 3)
+        {
+            required = 33 - points;
+            progress = 100 - 100 * required / (33 - 13);
+        }
+        else if (level < 4)
+        {
+            required = 53 - points;
+            progress = 100 - 100 * required / (53 - 33);
+        }
+        else
+        {
+            required = 85 - points;
+            progress = 100 - 100 * required / (85 - 53);
+        }
+        break;
+    }
+
+    if (BIT_CHK(5900))
+    {
+        // Display exact points remaining
+        SET_MSG_VAR(0, required, 0);
+        if (required == 1)
+            MSG(FORTUNE_COURAGE_POINTS_NEEDED_1 + socialStat); // Says point instead of points
+        else
+            MSG(FORTUNE_COURAGE_POINTS_NEEDED + socialStat);
+    }
+    else
+    {
+        // Display vague points remaining
+        if (progress < 25)
+            MSG(FORTUNE_COURAGE_PROGRESS_1 + socialStat);
+        else if (progress < 50)
+            MSG(FORTUNE_COURAGE_PROGRESS_2 + socialStat);
+        else if (progress < 75)
+            MSG(FORTUNE_COURAGE_PROGRESS_3 + socialStat);
+        else
+            MSG(FORTUNE_COURAGE_PROGRESS_4 + socialStat);
+    }
+}
+
+// Reads a number in memory that is baseLocation bytes away from the start of the flags in memory
+int ReadNumber(int baseLocation, int numBytes)
+{
+    int number = 0;
+    baseLocation *= 8; // Convert from bytes away from flag start to bits away
+    for (int i = 0; i < numBytes * 8; i++)
+    {
+        // Get the next bit (little endian)
+        bool foundBit = BIT_CHK(baseLocation + i);
+        // Convert the bit to a number, there's no power operator :(
+        int bitNumber = 0;
+        if (foundBit)
+        {
+            bitNumber = 1;
+            for (int j = 0; j < i; j++)
+            {
+                bitNumber *= 2;
+            }
+        }
+        number += bitNumber;
+    }
+    return number;
+}

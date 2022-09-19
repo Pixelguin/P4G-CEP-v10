@@ -1,0 +1,28 @@
+
+// 
+// FlowScript decompiled using Atlus Script Tools by TGE (2017-2021)
+// In the unfortunate case of any bugs, please report them back to me.
+// 
+
+// 
+// Imports
+// 
+
+import( "scheduler_04.bf" );
+import( "crash_warning.msg" );
+
+// 
+// Procedure declarations
+// 
+
+void sdl04_15_PM_B_hook()
+{
+    CALL_EVENT( 135, 1, 0 );
+    CALL_EVENT( 136, 1, 0 );
+	OPEN_MSG_WIN();
+	HELP_MSG(CrashWarning);
+	CLOSE_MSG_WIN();
+    WAIT( 60 );
+    SAVE_ASK( 0 );
+    NS_DISABLE_PLAYER_MOVEMENT();
+}

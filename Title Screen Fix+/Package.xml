@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Title Screen Fix+</name>
+  <id>lipsum.titlescreenfix_modloaderenabled</id>
+  <author>lipsum, Pixelguin</author>
+  <version>2.0</version>
+  <link>https://gamebanana.com/mods/33990</link>
+  <description>Fixes errors in the title sequence and changes "Press Any Button" to "Mod Loader Enabled."</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

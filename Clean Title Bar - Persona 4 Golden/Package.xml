@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Clean Title Bar - Persona 4 Golden</name>
+  <id>pixelguin.cleantitlebar_golden</id>
+  <author>Pixelguin, Tekka</author>
+  <version>2.0</version>
+  <link>https://gamebanana.com/mods/50905</link>
+  <description>Changes the game window's title bar from "Persona4 GOLDEN [REV: XXXX]" to "Persona 4 Golden."</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

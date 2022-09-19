@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>[   CONTROLLER   ]</name>
+  <id>p4gcep.controller</id>
+  <author />
+  <version />
+  <link />
+  <description>Custom reskins for the controller UI.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Fortune Teller</name>
+  <id>animatedswine37.fortuneteller</id>
+  <author>AnimatedSwine37, rainbowlack</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/325510</link>
+  <description>Adds a new Fortune Telling program to the TV in your room. Checking it will show how close you are to levelling up each social stat.
+
+Use the "Adjust TV" option when watching the program to switch between a more vague, story-friendly fortune or exact values.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

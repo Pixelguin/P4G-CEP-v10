@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Hidden Field Names</name>
+  <id>animatedswine37.hidefieldname</id>
+  <author>AnimatedSwine37</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/389830</link>
+  <description>Hides the textbox in the bottom left when a dialogue box is open.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>
