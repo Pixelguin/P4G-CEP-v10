@@ -191,7 +191,7 @@ void SCR_NIGHT_NPC_NAGASE_hook()
     }
 
     EVT_FUNCTION_0013( slId );
-    if(CHECK_IF_SL_LVLUP(slId)
+    if(CHECK_IF_SL_LVLUP(slId))
         MSG(NightWaitSuggestionDaisuke);
     MSG( var41 );
     SEL_CHK_PAD( 14, 2 );

@@ -528,10 +528,10 @@ void check_kitchen_hook()
 			PLAY_SOUNDEFFECT(224);
 			MSG(REIZOU_EATING);
 			CLOSE_MSG_WIN();
-			FUNCTION_0015( 30 );
+			FADE_BACK( 30 );
 			FADE_SYNC();
 			OPEN_MSG_WIN();
-			FUNCTION_006D( 5, 9 );
+			PLAY_BTL_SOUNDEFFECT( 5, 9 );
 			MSG(NoLongerTired);	
 			BIT_OFF( 0 + 0x0400 + 0x0800 + 2 );
 		}

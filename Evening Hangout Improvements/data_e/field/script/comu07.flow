@@ -240,7 +240,7 @@ void SCR_NIGHT_NPC_KANJI_hook()
     }
 
     EVT_FUNCTION_0013( slId );
-    if(CHECK_IF_SL_LVLUP(slId)
+    if(CHECK_IF_SL_LVLUP(slId))
         MSG(NightWaitSuggestion);
     MSG( var37 );
     SEL_CHK_PAD( 14, 2 );

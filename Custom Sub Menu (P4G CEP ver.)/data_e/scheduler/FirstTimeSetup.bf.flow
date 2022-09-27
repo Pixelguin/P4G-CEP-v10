@@ -258,3 +258,4 @@ void RemoveEventsOptionsToggle()
 			done = true;
 		}
 	}
+}
