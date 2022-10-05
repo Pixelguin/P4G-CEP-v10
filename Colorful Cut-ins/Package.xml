@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Colorful Cut-ins</name>
+  <id>wxnder.colorfulcutins</id>
+  <author>wxnder</author>
+  <version>1.0</version>
+  <link>https://gamebanana.com/mods/403940</link>
+  <description>Adds color to the backgrounds of the Critical Cut-in portraits.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

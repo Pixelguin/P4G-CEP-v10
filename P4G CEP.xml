@@ -290,6 +290,14 @@
       <link>https://gamebanana.com/mods/34005</link>
     </Package>
     <Package>
+      <name>Colorful Cut-ins</name>
+      <path>Colorful Cut-ins</path>
+      <enabled>true</enabled>
+      <id>wxnder.colorfulcutins</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/403940</link>
+    </Package>
+    <Package>
       <name>[   CONTROLLER   ]</name>
       <path>.CONTROLLER</path>
       <enabled>false</enabled>
