@@ -90,6 +90,14 @@
       <link>https://gamebanana.com/mods/9659</link>
     </Package>
     <Package>
+      <name>Better Faces</name>
+      <path>Better Faces</path>
+      <enabled>true</enabled>
+      <id>howlinmoon.betterfaces-main8plusoptional</id>
+      <hidden>false</hidden>
+      <link>https://gamebanana.com/mods/407239</link>
+    </Package>
+    <Package>
       <name>Custom Sub Menu - JP Audio Compatibility Patch</name>
       <path>Custom Sub Menu - JP Audio Compatibility Patch</path>
       <enabled>false</enabled>

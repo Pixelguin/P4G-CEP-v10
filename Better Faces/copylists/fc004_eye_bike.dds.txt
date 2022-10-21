@@ -1,0 +1,2 @@
+   data_e\tex2\battle\bike\b118_w\003\fc004_eye_bike.dds
+   data_e\tex2\battle\bike\b118_s\002\fc004_eye_bike.dds

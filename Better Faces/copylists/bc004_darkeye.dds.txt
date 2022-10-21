@@ -1,0 +1,2 @@
+   data_e\tex2\model\npc2\n5251_0\bc004_darkeye.dds
+   data_e\tex2\model\npc2\n5252_0\bc004_darkeye.dds

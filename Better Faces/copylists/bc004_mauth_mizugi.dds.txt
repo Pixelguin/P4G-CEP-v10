@@ -1,0 +1,2 @@
+   data_e\tex2\model\npc\n374_0\bc004_mauth_mizugi.dds
+   data_e\tex2\model\npc\n307_0\bc004_mauth_mizugi.dds

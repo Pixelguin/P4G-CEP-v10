@@ -1,0 +1,2 @@
+   data_e\tex2\model\npc2\n5401_0\bc007_dark_eye_t01.dds
+   data_e\tex2\model\npc2\n5402_0\bc007_dark_eye_t01.dds

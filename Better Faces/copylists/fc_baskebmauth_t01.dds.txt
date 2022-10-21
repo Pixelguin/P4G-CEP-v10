@@ -1,0 +1,12 @@
+   data_e\tex2\model\npc\n1703_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1702_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1709_1\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1710_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1701_3\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1701_1\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1705_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1704_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1707_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1708_0\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1709_3\fc_baskebmauth_t01.dds
+   data_e\tex2\model\npc\n1706_0\fc_baskebmauth_t01.dds

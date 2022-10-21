@@ -1,0 +1,2 @@
+   data_e\tex2\model\player\bc006_c5\bc006_eye_josou.dds
+   data_e\tex2\model\npc\n506_0\kanji_jyosou_eye_t01.dds

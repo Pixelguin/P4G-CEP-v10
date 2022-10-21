@@ -1,0 +1,8 @@
+   data_e\tex2\model\field\fc_05_10\bc005_mauth_t01.dds
+   data_e\tex2\model\field\fc_05_20\bc005_mauth_t01.dds
+   data_e\tex2\model\npc\n466_0\bc005_mizugi_mauth_t01.dds
+   data_e\tex2\model\npc\n474_0\bc005_mizugi_mauth_t01.dds
+   data_e\tex2\model\npc\n439_0\bc005_mizugi_mauth_t01.dds
+   data_e\tex2\model\npc\n406_0\bc005_mizugi_mauth_t01.dds
+   data_e\tex2\model\npc\n459_0\bc005_mizugi_mauth_t01.dds
+   data_e\tex2\model\npc\n465_0\bc005_mizugi_mauth_t01.dds

@@ -1,0 +1,3 @@
+   data_e\tex2\model\player\bc003_c6\bc003_eye_t02_mizugi.dds
+   data_e\tex2\model\npc\n281_0\tie_mizugi_eye.dds
+   data_e\tex2\model\npc\n207_0\tie_mizugi_eye.dds

@@ -1,0 +1,2 @@
+   data_e\tex2\model\npc\n10_0\bc001_girlmauth_t01.dds
+   data_e\tex2\model\player\bc001_c5\bc001_girlmauth_t02.dds

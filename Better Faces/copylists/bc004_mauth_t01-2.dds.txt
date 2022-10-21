@@ -1,0 +1,4 @@
+   data_e\tex2\model\field\fc_04_10\bc004_mauth_t01.dds
+   data_e\tex2\model\field\fc_04_20\bc004_mauth_t01.dds
+   data_e\tex2\model\npc2\n5252_0\bc004_mauth_t01.dds
+   data_e\tex2\model\npc2\n5251_0\bc004_mauth_t01.dds
