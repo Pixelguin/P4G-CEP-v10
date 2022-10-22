@@ -106,5 +106,3 @@
    data_e\tex2\model\npc\n625_0\bc007_mauth_t01.dds
    data_e\tex2\model\npc\n655_5\bc007_mauth_t01.dds
    data_e\tex2\model\npc\n656_6\bc007_mauth_t01.dds
-   data_e\tex2\model\field\fc_07_20\bc007_mauth_t01.dds
-   data_e\tex2\model\field\fc_07_10\bc007_mauth_t01.dds

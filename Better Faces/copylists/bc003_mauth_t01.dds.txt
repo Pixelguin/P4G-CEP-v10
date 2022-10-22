@@ -140,5 +140,3 @@
    data_e\tex2\model\npc\n252_3\bc003_mauth_t01.dds
    data_e\tex2\model\npc\n253_3\bc003_mauth_t01.dds
    data_e\tex2\model\npc\n215_0\bc003_mauth_t01.dds
-   data_e\tex2\model\field\fc_03_10\bc003_mauth_t01.dds
-   data_e\tex2\model\field\fc_03_20\bc003_mauth_t01.dds

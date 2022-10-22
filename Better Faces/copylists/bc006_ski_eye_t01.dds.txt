@@ -1,2 +1,0 @@
-﻿   data_e\tex2\model\npc\n558_0\bc006_ski_eye_t01.dds
-   data_e\tex2\model\npc\n557_0\bc006_ski_eye_t01.dds

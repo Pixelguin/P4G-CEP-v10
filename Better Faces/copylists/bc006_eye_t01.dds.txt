@@ -139,5 +139,3 @@
    data_e\tex2\model\player\bc006_cd\bc006_eye_t02.dds
    data_e\tex2\battle\bike\b119_w\003\bc006_eye_t02_bike.dds
    data_e\tex2\battle\bike\b119_s\003\bc006_eye_t02_bike.dds
-   data_e\tex2\model\field\fc_06_20\bc006_eye_t01.dds
-   data_e\tex2\model\field\fc_06_10\bc006_eye_t01.dds
