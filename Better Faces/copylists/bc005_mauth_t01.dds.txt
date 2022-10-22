@@ -118,3 +118,7 @@
    data_e\tex2\model\npc\n456_4\bc005_mauth_t01.dds
    data_e\tex2\model\npc\n454_1\bc005_mauth_t01.dds
    data_e\tex2\model\npc\n456_6\bc005_mauth_t01.dds
+   data_e\tex2\model\player\bc005\bc005_mauth_t01.dds
+   data_e\tex2\model\npc2\n5301_0\bc005_mauth_t01.dds
+   data_e\tex2\model\npc2\n5302_0\bc005_mauth_t01.dds
+   data_e\tex2\model\npc2\n5303_0\bc005_mauth_t01.dds
