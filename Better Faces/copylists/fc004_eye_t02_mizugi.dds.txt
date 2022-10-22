@@ -1,2 +1,0 @@
-   data_e\tex2\model\player\bc004_c9\fc004_eye_t02_mizugi.dds
-   data_e\tex2\model\player\bc004_c6\fc004_eye_t02_mizugi.dds

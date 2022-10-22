@@ -1,2 +1,0 @@
-   data_e\tex2\model\field\fc_02_10\bc002_eye.dds
-   data_e\tex2\model\field\fc_02_20\bc002_eye.dds

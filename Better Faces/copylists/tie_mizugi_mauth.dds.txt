@@ -1,3 +1,0 @@
-   data_e\tex2\model\player\bc003_c6\bc003_mauth_t02_mizugi.dds
-   data_e\tex2\model\npc\n281_0\tie_mizugi_mauth.dds
-   data_e\tex2\model\npc\n207_0\tie_mizugi_mauth.dds

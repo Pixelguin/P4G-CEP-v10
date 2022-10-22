@@ -1,7 +1,0 @@
-   data_e\tex2\model\npc\n1756_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1752_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1754_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1757_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1753_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1755_0\fc_soccereye_t01.dds
-   data_e\tex2\model\npc\n1751_0\fc_soccereye_t01.dds

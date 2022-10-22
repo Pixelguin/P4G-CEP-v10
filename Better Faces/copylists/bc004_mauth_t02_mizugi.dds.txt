@@ -1,2 +1,0 @@
-   data_e\tex2\model\player\bc004_c6\bc004_mauth_t02_mizugi.dds
-   data_e\tex2\model\player\bc004_c9\bc004_mauth_t02_mizugi.dds
